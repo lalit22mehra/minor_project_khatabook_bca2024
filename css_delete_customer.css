@@ -1,0 +1,82 @@
+.delete_customer {
+    position: fixed;
+    width: 55vw;
+    height: 37vw;
+    margin-top: 20px;
+    margin-left: 400px;
+    padding: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: justify;
+    border: 4px solid black;
+    background-color: rgb(224, 178, 218);
+}
+
+.delete_customer caption {
+    font-size: 70px;
+    margin-left: 60px;  
+    color: rgb(10, 82, 90);
+    font-weight: 700;
+}
+
+.delete_customer table {
+    background-color: rgb(146, 220, 151);
+    border-radius: 10px;
+    border-spacing: 20px;
+    width: 100%;
+    border-collapse: collapse;
+    height: 34px;
+    caption-side: top;
+    text-align: center;
+    border: 2px solid black;
+}
+.delete_customer img{
+width:74px;
+height: 46px;
+
+background-color: red;
+}
+
+.delete_customer table th {
+    font-size: 30px;
+    background-color: rgb(220, 118, 106);
+}
+
+.delete_customer table td {
+    color: rgb(18, 2, 2);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.delete_customer table,
+th,
+td {
+    border: 3px solid black;
+    align-items: center;
+    padding: 5px;
+
+}
+
+.delete_customer button {
+    padding: 0px;
+    margin-bottom: 0px;
+    background-color: red;
+}
+
+.delete_customer button :hover{
+    background-color:rgb(119, 17, 17);
+    color: white;
+}
+
+.delete_customer button:hover {
+    backgrorgb(102, 85, 85)olor: red;
+    color: black;
+}
+
+.delete_customer a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+

@@ -1,0 +1,114 @@
+.body{
+    background-color: rgb(234, 133, 150);
+}
+.content {
+    display: inline-flex;
+}
+
+.feedback {
+    position: fixed;
+}
+
+.form_feedback {
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+
+textarea {
+    margin-top: -78px;
+    margin-left: 20px;
+    border: 4px solid rgb(4, 57, 16);
+    width: 30vw;
+    height: 35vw;
+    position: static;
+    font-size: 25px;
+    background-color: rgb(118, 209, 143);
+
+}
+
+textarea::placeholder {
+    font-size: 25px;
+}
+
+.submit_feedback {
+    margin-top: 3px;
+    margin-left: 470px;
+    width: 155px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 6px;
+    color: black;
+    background-color: rgb(71, 71, 179);
+    font-size: 17px;
+    font-weight: 550;
+    cursor: pointer;
+    
+}
+
+.submit_feedback:hover {
+    background-color: rgb(17, 148, 37);
+    animation: shaking 0.4s infinite;
+}
+@keyframes shaking{
+    0%{transform: translateX(0) rotate(0deg);}
+    25%{transform: translateX(15px) rotate(5deg);}
+    50%{transform: translateX(0px) rotate(0deg);}
+    75%{transform: translateX(-15px) rotate(-5deg);}
+    100%{transform: translateX(0) rotate(0deg);}
+}
+
+.show_feedback {
+    position: fixed;
+    width: 45vw;
+    height: 34vw;
+    margin-top: -78px;
+    margin-left: 1000px;
+    margin-bottom: 40px;
+    padding: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: justify;
+    border: 4px solid black;
+    background-color: rgb(231, 192, 95);
+}
+
+.show_feedback table {
+    background-color: rgb(206, 231, 207);
+    border-radius: 10px;
+    border-spacing: 20px;
+    width: 100%;
+    border-collapse: collapse;
+    height: 30vw;
+    caption-side: top;
+    text-align: center;
+
+}
+
+.show_feedback table caption {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.show_feedback table th {
+    font-size: 30px;
+    background-color: rgb(131, 147, 212);
+}
+
+.show_feedback table td {
+    color: red;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.date {
+    color: rgb(78, 13, 13);
+}
+
+.show_feedback table th,
+td {
+    border: 3px solid black;
+    align-items: center;
+    padding: 5px;
+    width: 30px;
+}

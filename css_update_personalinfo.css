@@ -1,0 +1,73 @@
+
+
+.img_update img{
+  height: 500px;
+  width: 760px;
+  margin-top: 300px;
+  position: fixed;
+  margin-left: 90px;
+}
+
+
+
+.container {
+    margin-top: 60px;
+    margin-left: 1050px;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(245, 190, 233);
+    max-width: 500px;
+    height: 680px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    
+}
+
+.signup-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.form-group {
+    margin-bottom: 8px; 
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 5px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #3bdb26;
+    animation: shaking 0.4s infinite;
+}
+
+
+
+.state{
+    text-trasform:"uppercase";
+}
+
+    

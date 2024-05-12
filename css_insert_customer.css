@@ -1,0 +1,54 @@
+body {}
+
+.outboox {
+    margin-top: 10px;
+    width: 630px;
+    height: 760px;
+    position: fixed;
+    margin-left: 650px;
+}
+
+.outboox form {
+    width: 590px;
+    height: 690px;
+}
+
+.outboox table {
+    width: 620px;
+    height: 730px;
+    margin: auto;
+    margin-top: 20px;
+   background-color: rgb(229, 184, 168);
+   border-radius: 30px;
+
+}
+#heading_add{
+    color: rgb(18, 65, 125);
+    font-size: 35px;
+    font-weight: 600;
+}
+.label_name{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input{
+    width: 250px;
+    height: 30px;
+    float: left;
+    font-size: 20px;
+    border: 2px solid black;
+}
+
+.btn{
+    background-color: blue;
+    width: 97px;
+    height: 48px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-left: 250px;
+}
+.btn:hover{
+    color: white;
+    background-color: green;
+}

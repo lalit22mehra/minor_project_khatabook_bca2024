@@ -1,0 +1,47 @@
+.customers_record{
+    position: fixed;
+    width: 45vw;
+    height: 37vw;
+    margin-top: 30px;
+    margin-left: 1000px;
+    margin-bottom: 40px;
+    padding: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: justify;
+    border: 4px solid black;
+    background-color: rgb(228, 212, 174);
+}
+
+.customers_record caption{
+    font-size: 70px;
+    margin-left: 60px;
+    color: rgb(10, 82, 90);
+    font-weight: 700;
+}
+
+.customers_record table{
+    background-color: rgb(192, 227, 194);
+    border-radius: 10px;
+    border-spacing: 20px;
+    width: 100%;
+    border-collapse: collapse;
+    height: 20px;
+    caption-side: top;
+    text-align: center;
+}
+.customers_record table th{
+    font-size: 30px;
+    background-color: rgb(220, 118, 106);
+}
+.customers_record table td{
+    color: rgb(18, 2, 2);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.customers_record table,th,td{
+    border: 3px solid black;
+    align-items: center;
+    padding: 5px;
+    
+}

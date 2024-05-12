@@ -1,0 +1,24 @@
+.table{
+    width: 75%;
+    border: 5px solid rgb(11, 61, 6);
+    height: 28vw;
+    border-collapse: collapse;
+    background-color: rgb(238, 207, 207);
+    margin-left: 330px;
+}
+
+th{
+    border-right: 2px solid rgb(20, 22, 1);
+    border-bottom: 2px solid black;
+    
+}
+
+
+
+td{
+    text-align: center ;
+    border-bottom: 2px solid black;
+    font-style: italic;
+    font-size: 15px;
+
+}

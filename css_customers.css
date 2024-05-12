@@ -1,0 +1,78 @@
+.content{
+display: inline-flex;
+
+}
+.options{
+    position: fixed;
+    width: 600px;
+    height: 500px;
+    margin-top: -50px;  
+    margin-left: 50px;
+    
+}
+.options a{
+    text-decoration: none;
+  color: #333;
+  font-weight: bold;
+ 
+}
+.add_customer {
+    margin-bottom: 40px;
+    background-color: bisque;
+    width: 850px;
+    height: 150px;
+    margin-bottom: 100px;
+            
+     text-align: center;
+}
+
+.see_customer {
+     margin-bottom: 40px;
+     background-color: aqua;
+     width: 850px;
+
+     height: 150px;
+     margin-bottom: 100px;
+          text-align: center;
+}
+
+.delete_customer {
+     margin-bottom: 40px;
+     background-color: rgb(115, 223, 93);
+     width: 850px;
+     height: 150px;
+    
+     text-align: center;
+}
+
+.add_customer a{
+   
+    padding: 5px 10px;
+    font-size: 100px;
+    color: rgb(138, 18, 96);
+    
+    
+}
+
+.see_customer a{
+   
+    padding: 5px 10px;
+    font-size: 100px;
+      color: rgb(138, 18, 96);;
+}
+
+.delete_customer a{
+    
+    padding: 5px 10px;
+    font-size: 100px;
+      color: rgb(138, 18, 96);;
+}
+.manage_customer_image{
+    position: fixed;
+    margin-left:970px;
+    width: 600px;
+}
+.manage_customer_image img{
+    width: 1000px;
+    
+}

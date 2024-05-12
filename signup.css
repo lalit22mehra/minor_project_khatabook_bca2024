@@ -1,0 +1,118 @@
+body {
+    /* font-family: Arial, sans-serif;
+    background-color: pink; */
+    background-image: url("images/logo6.jpg"), url("images/logo6.jpg");
+    background-repeat: no-repeat, no-repeat, repeat;
+    background-position: right bottom, left bottom;
+    background-size: 620px;
+    background-origin: content-box, content-box;
+    background-clip: content-box;
+    padding: 50px;
+    background-color: white;
+
+}
+
+.container {
+    width: 30vw;
+    height: 820px;
+    margin-top: 5px;
+    margin-left: 650px;
+    padding: 20px;
+    background-color: pink;
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    backdrop-filter: blur(10px);
+
+}
+
+input {
+    background-color: rgb(156, 209, 221);
+    width: 2000px;
+    padding-right: 20px;
+    border: 4px solid black;
+    font-size: 25px;
+}
+
+.signup-form h2 {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    color: rgb(22, 15, 7);
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 28px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 6px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    height: 20px
+}
+
+button[type="submit"] {
+    width: 30%;
+    font-size: 27px;
+    margin-left: 180px;
+    margin-top: 5px;
+    padding: 5px;
+    background-color: rgb(24, 118, 57);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(80, 101, 206);
+    animation: shaking 0.4s infinite;
+}
+@keyframes shaking{
+    0%{transform: translateX(0) rotate(0deg);}
+    25%{transform: translateX(15px) rotate(5deg);}
+    50%{transform: translateX(0px) rotate(0deg);}
+    75%{transform: translateX(-15px) rotate(-5deg);}
+    100%{transform: translateX(0) rotate(0deg);}
+}
+
+
+.state {
+    text-transform: uppercase;
+}
+
+.log {
+    width: 500px;
+    height: 30px;
+    margin-top: 1px;
+    margin-right: -40px;
+    float:right;
+
+   
+}
+
+.log h4 {
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.log a {
+    display: inline;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+}

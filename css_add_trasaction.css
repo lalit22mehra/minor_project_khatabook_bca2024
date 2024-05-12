@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin-left: 550px;
+
+    width: 900px;
+    height: 530px;
+    margin-top: 30px;
+    position: fixed;
+    
+}
+
+.container form {
+    width: 900px;
+    height: 640px;
+    background-color: rgb(228, 132, 216);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container select {
+    width: 120px;
+    height: 80px;
+    margin-left: 30px;
+}
+
+h3 {
+    font-size: 40px;
+    color: rgb(167, 35, 107);
+
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 1400px;
+    position: fixed;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    font-size: 30px;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="submit"] {
+    width: 800px;
+    height: 30px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 30px;
+
+}
+
+textarea[name="description"] {
+    background-color: rgb(164, 151, 251);
+    margin-bottom: 5px;
+    width: 450px;
+    height: 320px;
+    margin-left: 30px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    width: 200px;
+    margin-left: 30px;
+}
+
+input[type="submit"]:hover {
+    background-color: green;
+}
+
+input[name="due_date"] {
+    height: 30px;
+    width: 90px;
+}
+input[type="date"]{
+    width: 120px;
+    height: 80px;
+    margin-left: 30px;
+}
